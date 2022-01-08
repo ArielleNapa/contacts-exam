@@ -1,0 +1,92 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap);
+}
+.home-page {
+  padding: 1rem;
+  background-color: #ffdf5a;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  font-family: "Oswald";
+}
+
+.expense-item__description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end;
+  flex-flow: column-reverse;
+  justify-content: flex-start;
+  flex: 1;
+  font-family: "Oswald";
+}
+
+.expense-item h2 {
+  color: #3a3a3a;
+  font-size: 1.25rem;
+  margin: 0 1rem;
+  font-family: "Oswald";
+}
+
+.male img {
+  border: 4px inset #f14343;
+  border-radius: 12px;
+  border-width: medium;
+}
+
+.female img {
+  border: 2px inset #409233;
+  border-radius: 12px;
+  border-width: medium;
+}
+.button-remove {
+  background: transparent;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: 1px solid red;
+  margin: 0 1rem;
+  font-family: "Oswald";
+}
+.button-remove:hover {
+  background-color: red; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button {
+  background: transparent;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: black;
+  margin: 0 1rem;
+  font-family: "Oswald";
+}
+
+.button:hover {
+  background-color: rgb(253, 173, 0);
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 580px) {
+  .expense-item__description {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+  }
+}

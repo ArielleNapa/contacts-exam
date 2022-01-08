@@ -1,0 +1,25 @@
+.header {
+  position: relative;
+  border-bottom: 1px solid #dddddd;
+}
+.header-title {
+  text-align: center;
+}
+
+.contents {
+  border-bottom: 1px solid #dddddd;
+  padding: 2rem 0;
+}
+
+.info-line {
+  display: flex;
+  margin: 8px 0;
+}
+
+.info-line > p {
+  margin: 0;
+}
+.info-line > label {
+  margin-right: 5px;
+  font-weight: bold;
+}

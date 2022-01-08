@@ -1,0 +1,21 @@
+.title {
+  padding: 1rem;
+  background-color: #ffdf59;
+  margin: 1rem auto;
+  width: 50rem;
+  max-width: 95%;
+  text-align: center;
+}
+
+.sort-by {
+  text-align: left;
+}
+.logo {
+  width: 100%;
+  align-items: start;
+  display: flex;
+}
+.logo > img {
+  height: 100px;
+  width: 100px;
+}
