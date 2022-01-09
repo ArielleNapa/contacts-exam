@@ -1,4 +1,5 @@
-This project uses an API to display a contact list. 
+# This project uses an API to display a contact list. 
+
 Using this application, you can add a new contact by clicking on the "Add Contact" button, which will make an API call to a random and unique user from the given API and add it to the list. 
 In addition, you can sort the list by A-Z first name, Z-A first name or by days until birthday. 
 On each contact card, you can see that the picture frame is colored according to the gender of that contact, green for a woman, red for a man. 
